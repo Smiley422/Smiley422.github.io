@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Smiley.JS",
-    "currentPage": "home.html",
+    "currentPage": "panda_bot.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1117,7 +1117,7 @@
         }
       ]
     },
-    "home.html": {
+    "panda_bot.html": {
       "settings": {
         "meta_descr": "The page for Panda Bot",
         "title": "Panda Bot",
