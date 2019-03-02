@@ -19,12 +19,11 @@ email: "gleeny@cyberservices.com"
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website for showing my projects and other miscellaneous.
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://promise.js.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: GleenyPromise
-github_username:  Gleeny
+url: "https://smiley.js.org" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  Smiley422
 color: "#00843b"
 
-repository: "Gleeny/gleeny.github.io"
+repository: "Smiley422/Smiley422.github.io"
 
 # Build settings
 plugins:
