@@ -1,0 +1,120 @@
+---
+layout: page
+title: Voicr
+description: A bot that can give you a role when you enter a specific voice channel. (giving the opportunity to link it with a text channel)
+---
+
+<div style="display:flex;flex-direction:row;align-items:center;justify-content: center;">
+    <div class="avatar" id="avatarStatus">
+        <img src="https://i.imgur.com/5vELWmf.gif?width=128&height=128" id="avatar">
+    </div>
+    <div style="margin:12px;" id="stats"></div>
+</div>
+<hr />
+<p><b>Voicr</b> is a simple voice channel role system and can be set up in 4-5 simple steps, explained.<ol>
+    <li>Add the bot using <a href="https://discordapp.com/oauth2/authorize?client_id=472842075310653447&permissions=268438528&scope=bot">this</a> link.</li>
+    <li>Make a voice channel (for example Main Voice), or use an existing channel.</li>
+    <li>Make a role (for example Connected to Main Voice), or use an existing role.</li>
+    <li>(Following the example) Type <code>v!enable Main Voice | Connected to Main Voice</code>.</li>
+    <li>(Optional, following the example) Make a text channel (for example #main-voice-context), or use an existing channel and allow the role (Connected to Main Voice) to talk in the channel.</li>
+</ol>
+        
+<hr />
+<p><b>Purpose</b>
+        
+<p>There are different purposes:<ul>
+    <li>Guild administrators can restrict users in a voice channel to talk in a text channel.</li>
+    <li>Prevents the main chat to be flooded with random sh1t connected to the voice channel.</li>
+</ul>
+<hr />
+<p><b>Commands</b>
+        
+<p id="commands">Loading commands from GitHub...</p>
+
+<hr />
+<p><b>Permissions</b>
+<p>If you're super pecky about giving bots permissions, read this first!
+        
+<ul>
+	<li>Read Messages<ul>
+		<li>A basic permission that you should allow everyone to have. It needs to look for commands.</li></ul></li>
+	<li>Send Messages<ul>
+		<li>Another basic permission. It requires to respond to the commands.</li></ul></li>
+    <li>Manage Roles<ul>
+        <li>It needs to give the role to the user. Duh.</li></ul></li>
+</ul>
+
+<hr />
+<p><b>Contributors</b>
+        
+<p id="contributors">Loading contributors from GitHub...</p>
+        
+<hr />
+<p><b>Keep in mind!</b></p>
+<ul>
+    <li>You need to be undeafened to have the role.</li>
+	<li>The only information we store in our systems are:<ul>
+		<li>The voice channel ID</li>
+		<li>The role ID</li>
+		<li>Global voice channels (for the activity of the bot)</li>
+	<li>By using our bot you also agree that changes can be made and downtime can occour.</li>
+</ul>
+
+<hr />
+
+<center>
+    <a href="https://discordbots.org/bot/472842075310653447"><img src="https://discordbots.org/api/widget/472842075310653447.svg"></a>
+    <a href="https://discordbotlist.com/bots/472842075310653447"><img src="https://discordbotlist.com/bots/472842075310653447/widget"></a>
+    <a href="https://divinediscordbots.com/bots/472842075310653447"><img src="https://divinediscordbots.com/api/widget/472842075310653447.svg"></a>
+    <a href="https://bots.discordlist.app/bot/467377486141980682"><img src="https://bots.discordlist.app/api/bot/467377486141980682/widget"></a>
+    <a href="https://discord.boats/bot/472842075310653447"><img src="https://discord.boats/api/widget/472842075310653447"></a>
+</center>
+
+<style>
+center img {
+    height: 150px;
+    border-radius: 10px;
+}
+</style>
+
+<script>
+$.getJSON("https://raw.githubusercontent.com/Gleeny/Voicr/master/settings.json", function(settings) {
+  let html = '<table><thead><tr><th style="text-align:left;">Command &amp; Usage</th><th style="text-align:left;">Description</th></tr></thead><tbody>';
+    
+    function formatCommand(command, index) {
+      html = html + '<tr><td style="text-align:left;"><code>' + settings.prefix + command.command + (command.args ? (command.command == "" ? "" : " ") + command.args.replace(/</g, "&lt;").replace(/>/g, "&gt;") : "") + "</code></td>" + '<td style="text-align:left;">' + command.description + "</td></tr>";
+    }
+  
+  settings.commands.forEach(formatCommand);
+  
+  html = html + '</tbody></table>';
+  document.getElementById("commands").innerHTML = html;
+  
+  // CONTRIBUTORS
+  html = '<ul>';
+    
+  function formatContributor(contributor, index) {
+      html = html + '<li><code>' + contributor.role + '</code> ' + contributor.user + ' (' + contributor.userID + ')</li>';
+  }
+  
+  settings.contributors.forEach(formatContributor);
+  
+  html = html + '</ul>';
+  document.getElementById("contributors").innerHTML = html;
+})
+$.getJSON("https://promise-phoenix.glitch.me/api", function(api) {
+    if (api.voicr) {
+        let html = '<center><b>Voicr Stats</b></center><table><tbody>';
+        html = html + '<tr><td style="text-align:right;"><b>Server Count </b></td><td style="text-align:left;">' + api.voicr.servers + '</td></tr>'
+        html = html + '<tr><td style="text-align:right;"><b>Shard Count </b></td><td style="text-align:left;">' + api.voicr.shard_count + '</td></tr>'
+        html = html + '<tr><td style="text-align:right;"><b>Voice Channels </b></td><td style="text-align:left;">' + api.voicr.stat + '</td></tr>'
+        html = html + "</tbody></table>"
+        document.getElementById("avatar").src = api.voicr.avatar + "?size=2048";
+        document.getElementById("avatarStatus").id = "online";
+        document.getElementById("stats").innerHTML = html;
+    } else {
+        document.getElementById("avatar").src = "/files/error.png";
+        document.getElementById("avatarStatus").id = "dnd"
+    }
+})
+</script>
