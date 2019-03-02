@@ -25,7 +25,7 @@
         "display4Size": 1,
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
         "#25f497",
@@ -40,8 +40,8 @@
     "uniqCompNum": 36,
     "versionPublish": "4.9.4",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/animal-hero-panda3-128x73.png",
-    "noImageResize": "true",
+    "favicon": "@PROJECT_PATH@/assets/images/p-logo-v2-1.png",
+    "noImageResize": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
   },
