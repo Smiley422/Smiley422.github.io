@@ -565,7 +565,7 @@
         "title": "Home",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "Test",
         "html_before": ""
       },
       "components": [
