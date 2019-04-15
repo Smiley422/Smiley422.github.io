@@ -81,7 +81,8 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  background:url('../img/gradient.png') no-repeat 0 -400px;
+  min-height:400px;
+  background:url('../img/color.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
 }
