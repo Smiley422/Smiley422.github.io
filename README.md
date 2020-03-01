@@ -3,6 +3,7 @@ description: >-
   Condemned Moderation is a moderation bot designed for The Condemned's Discord
   server. It offers mostly moderation commands, but also supports fun commands
   as well.
+  
 ---
 
 # What is Condemned Moderation?
