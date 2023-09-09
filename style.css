@@ -43,5 +43,5 @@ animation: glow 3s linear infinite;
 
 @font-face {
 font-family: "ITC Avant Garde";
-src: url('https://github.com/Smiley422/ITC-Fonts/raw/main/ITC%20Avant%20Garde%20Gothic/ITC%20Avant%20Garde%20Gothic%20Bold/ITC%20Avant%20Garde%20Gothic%20Bold.otf');
+src: url('fonts/itc_a_g.otf');
 }
