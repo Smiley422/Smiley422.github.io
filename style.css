@@ -12,7 +12,7 @@ body {
   }
 
 h1 {
-font-family: "ITC Avant Garde", sans-serif;
+font-family: "ITC Avant Garde Bold", sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 72px;
@@ -42,6 +42,13 @@ animation: glow 3s linear infinite;
 }
 
 @font-face {
-font-family: "ITC Avant Garde";
-src: url('fonts/itc_a_g.otf');
+font-family: "ITC Avant Garde Bold";
+src: url('fonts/itc_a_g_b.otf');
+font-display:auto;font-style:bold;font-weight:700;font-stretch:normal;
 }
+
+@font-face {
+    font-family: "ITC Avant Garde";
+    src: url('fonts/itc_a_g.otf');
+    font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+    }
