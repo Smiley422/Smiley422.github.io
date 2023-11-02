@@ -2,7 +2,6 @@
 
 # The Condemned Network Bot Dependency Acknowledgements
 
-> [!NOTE]
 > The Condemned Network Bot utilizes the following pieces of open-source software.
 
 ---
