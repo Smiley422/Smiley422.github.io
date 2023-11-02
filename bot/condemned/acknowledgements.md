@@ -1,3 +1,12 @@
+<meta name="theme-color" content="#a97189">
+
+# The Condemned Network Bot Dependency Acknowledgements
+
+> [!NOTE]
+> The Condemned Network Bot utilizes the following pieces of open-source software.
+
+---
+
 # [Gamecord](https://github.com/aniket091/Gamecord)
 MIT License 
 
