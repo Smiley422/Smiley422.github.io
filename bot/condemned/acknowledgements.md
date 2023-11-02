@@ -1,4 +1,12 @@
 <meta name="theme-color" content="#a97189">
+<meta property="og:title" content="Smiley422.github.io" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://smiley.js.org/bot/condemned/acknowledgements.html" />
+<meta property="og:url" content="http://smiley.js.org/bot/condemned/acknowledgements.html" />
+<meta property="og:site_name" content="Smiley422.github.io" />
+<meta name="og:description" content="View the dependencies for The Condemned Network bot.">
+<meta content='https://github.com/Smiley422/Smiley422.github.io/blob/adc8135e48169907385587a61ba5864e45344d59/favicons/favicon.png' property='og:image'>
+<meta name="twitter:card" content="summary_large_image">
 
 # The Condemned Network Bot Dependency Acknowledgements
 
