@@ -7,6 +7,7 @@
 <meta name="og:description" content="View the dependencies for The Condemned Network bot.">
 <meta content='https://github.com/Smiley422/Smiley422.github.io/blob/adc8135e48169907385587a61ba5864e45344d59/favicons/favicon.png' property='og:image'>
 <meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="noindex, nofollow, noarchive, nocache, nosnippet, noimageindex">
 
 # The Condemned Network Bot Dependency Acknowledgements
 
