@@ -10,10 +10,7 @@
 <meta name="robots" content="noindex, nofollow, noarchive, nocache, nosnippet, noimageindex">
 
 # The Condemned Network Bot Dependency Acknowledgements
-
-> The Condemned Network Bot utilizes the following pieces of open-source software.
-
----
+The Condemned Network Bot utilizes the following pieces of open-source software.
 
 # [Gamecord](https://github.com/aniket091/Gamecord)
 MIT License 
@@ -41,7 +38,6 @@ SOFTWARE.
 ---
 
 # [friendly-words](https://github.com/glitchdotcom/friendly-words)
-
 MIT License
 
 ## Copyright (c) 2018 Glitch
