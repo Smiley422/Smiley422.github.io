@@ -18,8 +18,10 @@ layout: base
         </time>
       {%- endif -%}
       {%- if page.category -%}
+      {% for category in page.category %}
       <span itemprop="category" itemscope>
         <span class="p-category hcard" itemprop="name">{{ author }}</span>
+        {% endfor %}
         {%- endif -%}
       </span>
       {%- if page.author -%}
