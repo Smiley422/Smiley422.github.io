@@ -20,6 +20,7 @@ layout: base
       {%- if page.category -%}
       {% for category in page.category %}
       <span itemprop="category" itemscope>
+        •
         <span class="p-author hcard" itemprop="name">{{ category }}</span>
         {% endfor %}
         {%- endif -%}

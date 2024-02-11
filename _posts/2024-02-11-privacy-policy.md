@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Updated Privacy Policy"
-category: updates
+category: Updates
 author:
  - Smiley422
 ---
