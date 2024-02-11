@@ -3,11 +3,6 @@ plugins:
 - jekyll-feed
 - jekyll-remote-theme # add this line to the plugins list if you already have
 title: Smiley.js
-author:
-  name: Smiley422
-author:
-  name: Smiley422
-  picture: ./favicons/favicon.png
 show_excerpts: true
 permalink: /:categories/:year/:month/:day/:title
 minima:
