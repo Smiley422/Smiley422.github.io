@@ -1,5 +1,5 @@
 <meta name="theme-color" content="#a97189">
-<meta property="og:title" content="Smiley.Js" />
+<meta property="og:title" content="Smiley.js" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://smiley.js.org/bot/condemned/acknowledgements.html" />
 <meta property="og:url" content="http://smiley.js.org/bot/condemned/acknowledgements.html" />
