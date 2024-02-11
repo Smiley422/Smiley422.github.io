@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Condemned Network Bot
+description: View the Privacy Policy and Acknowledgements.
 ---
 
 # Want to view the Privacy Policy?
