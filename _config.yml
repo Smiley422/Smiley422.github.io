@@ -7,3 +7,7 @@ author:
   name: Smiley422
 show_excerpts: true
 permalink: /:categories/:year/:month/:day/:title
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,          user_url: "https://github.com/Smiley422" }
