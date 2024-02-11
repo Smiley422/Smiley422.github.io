@@ -15,7 +15,15 @@
         {%- if site.author %}
           <ul class="contact-list">
             {% if site.author.name -%}
-              <li class="p-name">{{ site.author.name | escape }}</li>
+            <li class="p-name">
+              {%- if site.author.name -%}
+                {{ site.author.name | escape }}
+              {%- elsif site.author -%}
+                {{ site.author | escape }}
+              {%- else -%}
+                {{ site.title | escape }}
+              {%- endif -%}
+              </li>
             {% endif -%}
             {% if site.author.email -%}
               <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>

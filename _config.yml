@@ -5,6 +5,9 @@ plugins:
 title: Smiley.js
 author:
   name: Smiley422
+author:
+  name: Smiley422
+  picture: ./favicons/favicon.png
 show_excerpts: true
 permalink: /:categories/:year/:month/:day/:title
 minima:
