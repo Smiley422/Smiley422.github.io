@@ -5,4 +5,5 @@ plugins:
 title: Smiley.js
 author:
   name: Smiley422
-description:
+show_excerpts: true
+permalink: /:categories/:year/:month/:day/:title
