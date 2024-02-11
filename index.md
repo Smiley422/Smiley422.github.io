@@ -1,3 +1,6 @@
+---
+layout: home
+---
 <meta charset="UTF-8" />
 <link rel="stylesheet" href="/privacy.css" />
 <meta name="robots" content="noindex, nofollow, noarchive, nocache, nosnippet, noimageindex">
