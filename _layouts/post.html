@@ -17,6 +17,11 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
+      {%- if page.category -%}
+      <span itemprop="category" itemscope>
+        <span class="p-category hcard" itemprop="name">{{ author }}</span>
+        {%- endif -%}
+      </span>
       {%- if page.author -%}
         • {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
