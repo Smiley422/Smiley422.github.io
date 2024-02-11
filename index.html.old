@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Smiley.Js</title>
+    <title>Smiley.js</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" />
@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1>Smiley.Js</h1>
+    <h1>Smiley.js</h1>
     <h2>Making something new.</h2>
 </body>
 
