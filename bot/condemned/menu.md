@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What do you want to view?
+title: Condemned Network Bot
 ---
 
 # Want to view the Privacy Policy?

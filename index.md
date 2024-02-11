@@ -1,11 +1,15 @@
 ---
 layout: home
-title: Welcome to Smiley.js
+title: Home
 ---
 <meta charset="UTF-8" />
 <link rel="stylesheet" href="/privacy.css" />
 <meta name="robots" content="noindex, nofollow, noarchive, nocache, nosnippet, noimageindex">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+# Welcome to Smiley.js!
+
 
 ### Our Products
 * Drop Shadow (Currently not maintained)
