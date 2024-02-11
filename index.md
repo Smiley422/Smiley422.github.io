@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Welcome to Smiley.js"
+title: Welcome to Smiley.js
 ---
 <meta charset="UTF-8" />
 <link rel="stylesheet" href="/privacy.css" />

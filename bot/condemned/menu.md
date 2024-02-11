@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: What do you want to view?
 ---
 
