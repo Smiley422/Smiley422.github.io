@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: What do you want to view?
 ---
 
