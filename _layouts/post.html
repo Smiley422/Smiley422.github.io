@@ -15,7 +15,7 @@ layout: base
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
         <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
           {{ mdate | date: date_format }}
-        </time>,
+        </time>
       {%- endif -%}
       {%- if page.category -%}
       {% for category in page.category %}
